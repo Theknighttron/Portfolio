@@ -22,7 +22,7 @@ function Home() {
                             A passionate Full Stack Developer specializing in scalable server-side applications with Node.js, Java, Python.
                         </p>
 
-                        <Link href="/contact"><a className="cta">Resume</a></Link>
+                        <Link href="/contact" legacyBehavior><a className="cta">Resume</a></Link>
                     </div>
 
                     <div className="image-wrapper w-full max-w-md mx-auto">

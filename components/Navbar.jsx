@@ -13,12 +13,12 @@ function Navbar({ router }) {
     return (
         <nav className="navbar">
             <div className="container">
-                <Link href="/"><a className="logo">Chriss</a></Link>
+                <Link href="/" legacyBehavior><a className="logo">Chriss</a></Link>
 
                 <ul className="nav-links">
                     { navs.map(nav => (
                         <li>
-                            <Link href={nav.href}>
+                            <Link href={nav.href} legacyBehavior>
                                 <a className={`nav-item ${ router.pathname == nav.href ? 'active' : '' }`}>{nav.text}</a>
                             </Link>
                         </li>

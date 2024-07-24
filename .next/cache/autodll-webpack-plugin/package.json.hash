@@ -1,1 +1,0 @@
-{"name":"my-profile-web","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"^12.0.0","next-images":"^1.8.5","react":"^17.0.2","react-dom":"^17.0.2","sass":"^1.26.10"},"readme":"ERROR: No README data found!","_id":"my-profile-web@0.1.0"}
