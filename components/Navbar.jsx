@@ -1,12 +1,14 @@
 import Link from 'next/link';
-import { withRouter } from 'next/router';
+import { Link as ScrollLink } from 'react-scroll';
 
-function Navbar({ router }) {
+function Navbar() {
     const navs = [
-        { text: 'Home', href: '/' },
-        { text: 'Projects', href: '/portfolio' },
-        { text: 'About', href: '/about' },
-        { text: 'Contact', href: '/contact' },
+        { text: 'Home', href: 'home' },
+        { text: 'Projects', href: 'projects' },
+        { text: 'Skills', href: 'skills' },
+        { text: 'About', href: 'about' },
+        { text: 'Blogs', href: 'blogs'},
+        // { text: 'Contact', href: 'contact' },
         // { text: '', href: '' },
     ];
 
@@ -16,11 +18,18 @@ function Navbar({ router }) {
                 <Link href="/" legacyBehavior><a className="logo">Chriss</a></Link>
 
                 <ul className="nav-links">
-                    { navs.map(nav => (
-                        <li>
-                            <Link href={nav.href} legacyBehavior>
-                                <a className={`nav-item ${ router.pathname == nav.href ? 'active' : '' }`}>{nav.text}</a>
-                            </Link>
+                    { navs.map((nav, index) => (
+                        <li key={index}>
+                            <ScrollLink
+                                to={nav.href}
+                                smooth={true}
+                                duration={600}
+                                className="nav-item cursor-pointer font-semibold"
+                                activeClass="true"
+                                spy={true}
+                            >
+                                {nav.text}
+                            </ScrollLink>
                         </li>
                     )) }
                 </ul>
@@ -29,4 +38,4 @@ function Navbar({ router }) {
     );
 }
 
-export default withRouter(Navbar);
+export default Navbar;
