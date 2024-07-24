@@ -5,11 +5,13 @@ import Head from 'next/head'
 function Portfolio() {
 	return (
 		<>
+
+            <Navbar />
+
+
 			<Head>
 			  <title>Portfolio</title>
 			</Head>
-
-			<Navbar />
 
 			<section className="hero">
 			  <div className="container">
