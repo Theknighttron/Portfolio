@@ -46,33 +46,68 @@ function Home() {
                             <div className="portfolio-item">
                                 <img src="/chitchat.png" className="portfolio-image rounded-lg" />
 
-                                <h4 className="portfolio-name text-white">Chat App Exploration</h4>
-                                <div className="portfolio-category text-white">Mobile Dev</div>
+                                <h4 className="portfolio-name text-white"> NP-PARKING </h4>
+                                <div className="portfolio-category text-white"> Parking Management </div>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/chitchat.png" className="portfolio-image rounded-lg" />
 
-                                <h4 className="portfolio-name text-white">Chat App Exploration</h4>
-                                <div className="portfolio-category text-white">Mobile Dev</div>
+                                <h4 className="portfolio-name text-white"> ExploreHub </h4>
+                                <div className="portfolio-category text-white"> Tourism Hub </div>
                             </div>
                         </div>
 
-                        <div className="portfolio-wrapper">
+                        <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
 
-                                <h4 className="portfolio-name text-white">kajian App</h4>
-                                <div className="portfolio-category text-white">Mobile Dev</div>
+                                <h4 className="portfolio-name text-white"> Lamour Fitness Center </h4>
+                                <div className="portfolio-category text-white"> Gym Website </div>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
 
-                                <h4 className="portfolio-name text-white">kajian App</h4>
-                                <div className="portfolio-category text-white">Mobile Dev</div>
+                                <h4 className="portfolio-name text-white"> Bcon </h4>
+                                <div className="portfolio-category text-white"> Conference Booking </div>
                             </div>
                         </div>
+
+
+                        <div className="portfolio-wrapper mt-12 mb-12">
+                            <div className="portfolio-item">
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+
+                                <h4 className="portfolio-name text-white"> Rich and Health </h4>
+                                <div className="portfolio-category text-white"> Healthy and Nutrition </div>
+                            </div>
+
+                            <div className="portfolio-item">
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+
+                                <h4 className="portfolio-name text-white"> Auth API </h4>
+                                <div className="portfolio-category text-white"> NodeJS API </div>
+                            </div>
+                        </div>
+
+                        <div className="portfolio-wrapper mt-12 mb-12">
+                            <div className="portfolio-item">
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+
+                                <h4 className="portfolio-name text-white"> Motor Dealers </h4>
+                                <div className="portfolio-category text-white"> Selling and Buying Vehicles </div>
+                            </div>
+
+                            <div className="portfolio-item">
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+
+                                <h4 className="portfolio-name text-white"> 2D Break-Out Game </h4>
+                                <div className="portfolio-category text-white"> Simple 2D Game </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </section>
