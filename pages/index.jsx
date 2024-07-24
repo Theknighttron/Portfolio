@@ -39,21 +39,19 @@ function Home() {
             <section className="project mt-36 bg-black">
                 <div className="container p-10">
                     <div className="w-full">
-                        <h1 className="text-white p-12 font-bold text-6xl mt-32 w-full text-center">Portfolio</h1>
-                        <p className="description text-white">
-                            Incididunt in cillum magna occaecat nisi qui in.
-                        </p>
+                        <h1 className="text-white font-bold text-6xl mt-32 w-full text-center">Projects</h1>
+                        <p className="text-white text-center font-semibold"> Explore my projects/work </p>
 
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
-                                <img src="/chitchat.png" className="portfolio-image" />
+                                <img src="/chitchat.png" className="portfolio-image rounded-lg" />
 
                                 <h4 className="portfolio-name text-white">Chat App Exploration</h4>
                                 <div className="portfolio-category text-white">Mobile Dev</div>
                             </div>
 
                             <div className="portfolio-item">
-                                <img src="/chitchat.png" className="portfolio-image" />
+                                <img src="/chitchat.png" className="portfolio-image rounded-lg" />
 
                                 <h4 className="portfolio-name text-white">Chat App Exploration</h4>
                                 <div className="portfolio-category text-white">Mobile Dev</div>
@@ -62,14 +60,14 @@ function Home() {
 
                         <div className="portfolio-wrapper">
                             <div className="portfolio-item">
-                                <img src="/kajian.jpg" className="portfolio-image" />
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
 
                                 <h4 className="portfolio-name text-white">kajian App</h4>
                                 <div className="portfolio-category text-white">Mobile Dev</div>
                             </div>
 
                             <div className="portfolio-item">
-                                <img src="/kajian.jpg" className="portfolio-image" />
+                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
 
                                 <h4 className="portfolio-name text-white">kajian App</h4>
                                 <div className="portfolio-category text-white">Mobile Dev</div>
@@ -79,6 +77,8 @@ function Home() {
                 </div>
             </section>
 
+
+
             <Skills />
 
 
@@ -86,9 +86,20 @@ function Home() {
 			<section className="About text-white bg-black mt-10 p-10 mb-10">
 			  <div className="container">
 			    <div className="text-wrapper w-full">
-			      <h1 className="text-white font-bold text-6xl mt-16 mb-10  w-full text-center">About</h1>
-			      <p className="description mb-16">
-			      	Incididunt in cillum magna occaecat nisi qui in exercitation labore anim adipisicing amet irure tempor id pariatur nostrud labore nulla veniam sunt occaecat est officia ut cillum do eiusmod enim consequat nulla in ut esse irure ex commodo excepteur pariatur in consectetur consectetur in dolor aliqua ex sint minim dolore ut ea ad dolor est deserunt incididunt exercitation qui laboris ad do minim sunt elit occaecat excepteur deserunt sint sunt laboris dolore amet sit fugiat tempor reprehenderit laborum et irure commodo exercitation ea excepteur esse mollit ad nisi sit laboris dolore ad sunt eiusmod dolore do nisi id commodo in et aliqua sed ullamco ea id duis aliquip commodo qui sed aute ut aliqua.
+			      <h1 className="text-white font-bold text-6xl mt-16  w-full text-center">About</h1>
+                  <p className="text-white text-center mb-10 font-semibold"> Discover more about my professional background </p>
+			      <p className="text-2xl mb-16">
+                            I am a dedicated Software Engineer with expertise in multiple programming languages and technologies,
+                            including JavaScript, Java, Python, Node.js, React, TypeScript, Docker.
+                            Passionate about both front-end and back-end development, I create efficient, scalable, and user-friendly applications.
+                            Notable achievements include migrating project setups to Docker environments,
+                            significantly improving performance and deployment processes, and enhancing user interfaces to boost engagement and satisfaction.
+                            <br /><br />
+                            I thrive in collaborative environments,
+                            working with cross-functional teams to brainstorm innovative solutions and deliver projects that surpass expectations.
+                            Driven by my enthusiasm for technology and problem-solving, I am continuously seeking new challenges to further enhance my abilities.
+                            I have a keen interest in learning Artificial Intelligence (AI) and Machine Learning (ML) and am dedicated to exploring the AI software market more in the future.
+                            My goal is to develop exceptional software solutions that provide seamless user experiences and optimal performance.
 			      </p>
 		      </div>
 	      </div>

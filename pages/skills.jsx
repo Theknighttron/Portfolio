@@ -18,8 +18,9 @@ const Skill = ({name, x, y}) => {
 function Skills() {
     return (
         <>
-            <h2 className="font-bold text-6xl mt-32 w-full text-center">Skills</h2>
-            <div className="w-full h-screen relative mb-32 flex items-center justify-center rounded-full bg-circularLight">
+            <h2 className="font-bold text-6xl mt-16 w-full text-center">Skills</h2>
+            <p className="text-black text-center font-semibold"> A showcase of my technical expertise </p>
+            <div className="container h-screen relative mt-16 mb-32 flex items-center justify-center rounded-full bg-circularLight">
                 <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="flex items-center justify-center rounded-full font-semibold bg-black text-white p-8 shadow-black cursor-pointer"

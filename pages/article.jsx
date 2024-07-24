@@ -68,8 +68,8 @@ function Articles() {
     return (
         <>
             <h1 className="font-bold text-6xl mt-32 w-full text-center">Article</h1>
+            <p className="text-black text-center font-semibold mb-16"> Sources I've read to expand my knowledge.</p>
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
-                <p className="description font-semibold w-full text-center mt-3 mb-16">All Article</p>
                 <ul>
                     <Article
                         title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
