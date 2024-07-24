@@ -1,8 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import article3 from "../public/programmer.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import { useRef } from "react";
+import article1 from "../public/programmer.jpg";
+import article2 from "../public/docker.webp";
+import article3 from "../public/Tumaini2.jpeg";
+
 
 
 
@@ -67,45 +70,45 @@ const MovingImage = ({ title, img, link}) => {
 function Articles() {
     return (
         <>
-            <h1 className="font-bold text-6xl mt-32 w-full text-center">Article</h1>
-            <p className="text-black text-center font-semibold mb-16"> Sources I've read to expand my knowledge.</p>
+            <h1 id="blogs" className="font-bold text-6xl mt-32 w-full text-center">Blogs & Article </h1>
+            <p className="text-black text-center font-semibold mb-16"> Sources I've read to expand my knowledge and for fun.</p>
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
                 <ul>
                     <Article
                         title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
                         date="July 24 2024"
                         link="/"
+                        img={article1}
+                    />
+                    <Article
+                        title="Docker Beginner to Expert: Learn Docker From Basic to Pro"
+                        date="August 24 2023"
+                        link="https://levelup.gitconnected.com/docker-beginner-to-expert-tutorial-68555aa3e544"
+                        img={article2}
+                    />
+                    <Article
+                        title="Empowering Young Minds: Student learn programming at Tumaini Senior Secondary on a STEM class."
+                        date="July 24 2024"
+                        link="https://tanzaniaeducationcorp.org/news/2020/9/28/sept-newsletter-tumaini-game-development"
                         img={article3}
                     />
                     <Article
                         title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
                         date="July 24 2024"
                         link="/"
-                        img={article3}
+                        img={article1}
                     />
                     <Article
                         title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
                         date="July 24 2024"
                         link="/"
-                        img={article3}
+                        img={article1}
                     />
                     <Article
                         title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
                         date="July 24 2024"
                         link="/"
-                        img={article3}
-                    />
-                    <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
-                        link="/"
-                        img={article3}
-                    />
-                    <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
-                        link="/"
-                        img={article3}
+                        img={article1}
                     />
                 </ul>
             </main>

@@ -15,10 +15,10 @@ const Skill = ({name, x, y}) => {
     )
 }
 
-function Skills() {
+function Skills({ skills }) {
     return (
         <>
-            <h2 className="font-bold text-6xl mt-16 w-full text-center">Skills</h2>
+            <h2 id="skills" className="font-bold text-6xl mt-16 w-full text-center">Skills</h2>
             <p className="text-black text-center font-semibold"> A showcase of my technical expertise </p>
             <div className="container h-screen relative mt-16 mb-32 flex items-center justify-center rounded-full bg-circularLight">
                 <motion.div
