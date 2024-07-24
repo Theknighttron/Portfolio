@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "autoprefixer": "^10.4.19",
+        "framer-motion": "^11.3.12",
         "next": ">=13.4.20-canary.13",
         "next-images": "^1.8.5",
         "postcss": "^8.4.39",

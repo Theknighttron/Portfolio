@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import hero from '../public/programmer.jpg'
 import Footer from '../components/Footer';
+import Skills from './skills';
 
 
 function Home() {
@@ -88,6 +89,8 @@ function Home() {
 		      </div>
 	      </div>
 			</section>
+
+            <Skills />
 
 
             <Footer />
