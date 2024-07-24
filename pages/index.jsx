@@ -5,6 +5,7 @@ import Image from 'next/image'
 import hero from '../public/programmer.jpg'
 import Footer from '../components/Footer';
 import Skills from './skills';
+import Article from './article';
 
 
 function Home() {
@@ -38,7 +39,7 @@ function Home() {
             <section className="project mt-36 bg-black">
                 <div className="container p-10">
                     <div className="w-full">
-                        <h1 className="text-white p-12">Portfolio</h1>
+                        <h1 className="text-white p-12 font-bold text-6xl mt-32 w-full text-center">Portfolio</h1>
                         <p className="description text-white">
                             Incididunt in cillum magna occaecat nisi qui in.
                         </p>
@@ -78,19 +79,23 @@ function Home() {
                 </div>
             </section>
 
+            <Skills />
 
-			<section className="About text-black bg-white mt-10 p-10 mb-10">
+
+
+			<section className="About text-white bg-black mt-10 p-10 mb-10">
 			  <div className="container">
 			    <div className="text-wrapper w-full">
-			      <h1 className="">About</h1>
-			      <p className="description">
+			      <h1 className="text-white font-bold text-6xl mt-16 mb-10  w-full text-center">About</h1>
+			      <p className="description mb-16">
 			      	Incididunt in cillum magna occaecat nisi qui in exercitation labore anim adipisicing amet irure tempor id pariatur nostrud labore nulla veniam sunt occaecat est officia ut cillum do eiusmod enim consequat nulla in ut esse irure ex commodo excepteur pariatur in consectetur consectetur in dolor aliqua ex sint minim dolore ut ea ad dolor est deserunt incididunt exercitation qui laboris ad do minim sunt elit occaecat excepteur deserunt sint sunt laboris dolore amet sit fugiat tempor reprehenderit laborum et irure commodo exercitation ea excepteur esse mollit ad nisi sit laboris dolore ad sunt eiusmod dolore do nisi id commodo in et aliqua sed ullamco ea id duis aliquip commodo qui sed aute ut aliqua.
 			      </p>
 		      </div>
 	      </div>
 			</section>
 
-            <Skills />
+
+            <Article />
 
 
             <Footer />
