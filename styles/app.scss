@@ -10,9 +10,9 @@ body {
 	font-size: 18px;
 }
 
-a[href] {
-	color: #000;
-}
+// a[href] {
+// 	color: #000;
+// }
 
 .container {
 	width: 980px;
@@ -62,9 +62,9 @@ a[href] {
 				}
 			}
 
-			&:hover {
-				opacity: .5;
-			}
+			// &:hover {
+			// 	opacity: .5;
+			// }
 		}
 	}
 }

@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Head from 'next/head'
 import Image from 'next/image'
 import hero from '../public/programmer.jpg'
+import Footer from '../components/Footer';
 
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
 
             <Navbar />
 
-            <section className="hero">
+            <section className="hero mb-36">
                 <div className="container">
                     <div className="text-wrapper">
                         <h1 className="title">Hello, I am ....<br/> Christopher Paulo</h1>
@@ -33,7 +34,7 @@ function Home() {
             </section>
 
 
-            <section className="project mt-16 bg-black">
+            <section className="project mt-36 bg-black">
                 <div className="container p-10">
                     <div className="w-full">
                         <h1 className="text-white p-12">Portfolio</h1>
@@ -87,6 +88,9 @@ function Home() {
 		      </div>
 	      </div>
 			</section>
+
+
+            <Footer />
 
         </>
     );
