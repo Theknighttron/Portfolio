@@ -13,7 +13,7 @@ import article4 from "../public/deepwork2.jpg";
 const Article = ({img, title, date, link}) => {
     return (
         <motion.li
-            initial={{ y:200 }}
+            initial={{ y:20 }}
             whileInView={{ y: 0, transition:{ duration: 0.5, ease: "easeInOut" }}}
             viewport={{ once: true }}
             className="relative w-full px-4 py-6 my-4 rounded-xl flex items-center justify-between bg-white text-black first:mt-0 border border-solid border-black
@@ -71,10 +71,10 @@ const MovingImage = ({ title, img, link}) => {
 function Articles() {
     return (
         <>
-            <h1 id="blogs" className="font-bold text-6xl mt-32 mb-32 w-full text-center">Blogs & Article </h1>
-            <p className="text-black text-center font-semibold mb-16"> Sources I've read to expand my knowledge and for fun.</p>
-            <main className="w-full mb-32 flex flex-col items-center justify-center overflow-hidden">
-                <ul>
+            <h1 id="blogs" className="font-bold text-6xl mt-32 w-full text-center">Blogs & Article </h1>
+            <p className="text-black text-center font-semibold"> Sources I've read to expand my knowledge and for fun.</p>
+            <main className="w-full flex flex-col items-center justify-center overflow-hidden">
+                <ul className="mb-32  mt-6 p-12">
                     <Article
                         title="Roadmap to Becoming a Developer: Navigate your journey whether you're just starting or advancing your skills"
                         date="Mar 3 2022"

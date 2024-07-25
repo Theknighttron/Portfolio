@@ -31,7 +31,9 @@ function Home() {
                             A passionate Full Stack Developer specializing in scalable server-side applications with Node.js, Java, Python.
                         </p>
 
-                        <Link href="/contact" legacyBehavior><a className="cta">Resume</a></Link>
+                        <Link href="/ChristopherPaulo.pdf" legacyBehavior>
+                            <a className="cta" target="_blank" rel="noopener noreferrer">Resume</a>
+                        </Link>
                     </div>
 
                     <div className="image-wrapper w-full max-w-md mx-auto">
@@ -54,15 +56,19 @@ function Home() {
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/Parking.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/NP-PARKING">
-                                    <h4 className="portfolio-name text-white hover:text-orange-500"> NP-PARKING </h4>
+                                <Link href="https://github.com/Theknighttron/NP-PARKING" target="_blank" rel="noopener noreferrer">
+                                    <h4
+                                        className="portfolio-name text-white  hover:text-orange-500"
+                                        >
+                                        NP-PARKING
+                                        </h4>
                                     <div className="portfolio-category text-white"> Parking Management </div>
                                 </Link>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/lamourFitnessCenter.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                <Link href="https://github.com/Theknighttron/richandhealth" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Lamour Fitness Center </h4>
                                     <div className="portfolio-category text-white"> Gym Website </div>
                                 </Link>
@@ -72,7 +78,7 @@ function Home() {
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/Explorehub.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/ExploreHUB">
+                                <Link href="https://github.com/Theknighttron/ExploreHUB" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> ExploreHub </h4>
                                     <div className="portfolio-category text-white"> Tourism Hub </div>
                                 </Link>
@@ -80,7 +86,7 @@ function Home() {
 
                             <div className="portfolio-item">
                                 <img src="/gosourcecode.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/Go-conf-booking-app">
+                                <Link href="https://github.com/Theknighttron/Go-conf-booking-app" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Bcon </h4>
                                     <div className="portfolio-category text-white"> Conference Booking </div>
                                 </Link>
@@ -92,7 +98,7 @@ function Home() {
 
                             <div className="portfolio-item">
                                 <img src="/richandhealth2.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                <Link href="https://github.com/Theknighttron/richandhealth" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Rich and Health </h4>
                                     <div className="portfolio-category text-white"> Healthy and Nutrition </div>
                                 </Link>
@@ -100,7 +106,7 @@ function Home() {
 
                             <div className="portfolio-item">
                                 <img src="/breakout_game.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                <Link href="https://github.com/Theknighttron/richandhealth" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> 2D Break-Out Game </h4>
                                     <div className="portfolio-category text-white"> Simple 2D Game </div>
                                 </Link>
@@ -111,7 +117,7 @@ function Home() {
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/javasourcecode.webp" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/mattjquinn/ChristopherChallenges">
+                                <Link href="https://github.com/mattjquinn/ChristopherChallenges" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Motors Dealer </h4>
                                     <div className="portfolio-category text-white"> Selling and Buying Vehicles </div>
                                 </Link>
@@ -119,7 +125,7 @@ function Home() {
 
                             <div className="portfolio-item">
                                 <img src="/nodesourcecode.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/Node-Auth-API">
+                                <Link href="https://github.com/Theknighttron/Node-Auth-API" target="_blank" rel="noopener noreferrer">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Auth API </h4>
                                     <div className="portfolio-category text-white"> NodeJS API </div>
                                 </Link>
