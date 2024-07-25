@@ -5,6 +5,7 @@ import { useRef } from "react";
 import article1 from "../public/roadmap.png";
 import article2 from "../public/docker.webp";
 import article3 from "../public/Tumaini2.jpeg";
+import article4 from "../public/deepwork2.jpg";
 
 
 
@@ -70,45 +71,33 @@ const MovingImage = ({ title, img, link}) => {
 function Articles() {
     return (
         <>
-            <h1 id="blogs" className="font-bold text-6xl mt-32 w-full text-center">Blogs & Article </h1>
+            <h1 id="blogs" className="font-bold text-6xl mt-32 mb-32 w-full text-center">Blogs & Article </h1>
             <p className="text-black text-center font-semibold mb-16"> Sources I've read to expand my knowledge and for fun.</p>
-            <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+            <main className="w-full mb-32 flex flex-col items-center justify-center overflow-hidden">
                 <ul>
                     <Article
                         title="Roadmap to Becoming a Developer: Navigate your journey whether you're just starting or advancing your skills"
-                        date="March 3 2022"
+                        date="Mar 3 2022"
                         link="/"
                         img={article1}
                     />
                     <Article
                         title="Docker Beginner to Expert: Learn Docker From Basic to Pro"
-                        date="August 24 2023"
+                        date="Aug 24 2023"
                         link="https://levelup.gitconnected.com/docker-beginner-to-expert-tutorial-68555aa3e544"
                         img={article2}
                     />
                     <Article
                         title="Empowering Young Minds: Student learn programming at Tumaini Senior Secondary on a STEM class."
-                        date="January 15 2024"
+                        date="Sep 15 2020"
                         link="https://tanzaniaeducationcorp.org/news/2020/9/28/sept-newsletter-tumaini-game-development"
                         img={article3}
                     />
                     <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
+                        title="Deep Work: Discover the principles of archieving focused success in a world filled with distractions"
+                        date="July 2 2024"
                         link="/"
-                        img={article1}
-                    />
-                    <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
-                        link="/"
-                        img={article1}
-                    />
-                    <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
-                        link="/"
-                        img={article1}
+                        img={article4}
                     />
                 </ul>
             </main>

@@ -21,7 +21,12 @@ function Home() {
             <section id="home" className="hero mb-12">
                 <div className="container">
                     <div className="text-wrapper">
-                        <h1 className="title">Hello, I am ....<br/> Christopher Paulo</h1>
+                        <h1 className="title">Hello, I am ....<br />
+                            <span
+                                className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-black font-bold inline-block">
+                                Christopher Paulo
+                            </span>
+                        </h1>
                         <p className="description">
                             A passionate Full Stack Developer specializing in scalable server-side applications with Node.js, Java, Python.
                         </p>
@@ -31,13 +36,12 @@ function Home() {
 
                     <div className="image-wrapper w-full max-w-md mx-auto">
                         <Image src={hero} width={500} height={500} alt="programmer" />
-
                     </div>
                 </div>
 
-                    <div className="flex flex-col justify-center items-center mt-48">
-                        <FaArrowCircleDown className="animate-bounce w-10 h-10"/>
-                    </div>
+                <div className="flex flex-col justify-center items-center mt-48">
+                    <FaArrowCircleDown className="animate-bounce w-10 h-10" />
+                </div>
             </section>
 
 
@@ -78,7 +82,7 @@ function Home() {
                                 <img src="/gosourcecode.png" className="portfolio-image rounded-lg" />
                                 <Link href="https://github.com/Theknighttron/Go-conf-booking-app">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Bcon </h4>
-                                    <div className="portfolio-category text-white"> Simple Conference Booking </div>
+                                    <div className="portfolio-category text-white"> Conference Booking </div>
                                 </Link>
                             </div>
                         </div>

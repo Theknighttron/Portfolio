@@ -6,7 +6,10 @@ function Footer() {
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 text-white">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <span className="self-center text-2xl text-white font-semibold whitespace-nowrap"> Eat.Sleep.Code.Repeat </span>
+                        <span
+                            className="self-center animate-typing text-2xl text-white font-semibold whitespace-nowrap overflow-hidden">
+                            Eat.Sleep.Code.Repeat
+                        </span>
                     </div>
                     <ul className="flex flex-wrap items-center mb-6 text-md font-medium sm:mb-0 text-white">
                         <li>
