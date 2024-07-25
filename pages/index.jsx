@@ -163,16 +163,40 @@ function Home() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-2xl">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xl">
                         <div>
                             <div className="mb-2"><strong>Name:</strong> Christopher Paulo</div>
                             <div className="mb-2"><strong>Years:</strong> 21</div>
                             <div className="mb-2"><strong>Country:</strong> Tanzania</div>
                         </div>
                         <div>
-                            <div className="mb-2"><strong>Email:</strong> <Link href="mailto:chrisspaul2050@gmail.com" className="text-blue-500 hover:underline">chrisspaul2050@gmail.com</Link></div>
-                            <div className="mb-2"><strong>Github:</strong> <Link href="https://github.com/polyhistor2050" className="text-blue-500 hover:underline">https://github.com/polyhistor2050</Link></div>
-                            <div className="mb-2"><strong>LinkedIn:</strong> <Link href="https://www.linkedin.com/in/chriss-paulo" className="text-blue-500 hover:underline">www.linkedin.com/in/chriss-paulo</Link></div>
+                            <div className="mb-2"><strong>Email: </strong>
+                                <Link
+                                    href="mailto:chrisspaul2050@gmail.com"
+                                    className="text-blue-500 hover:underline"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    chrisspaul2050@gmail.com
+                                </Link>
+                            </div>
+                            <div className="mb-2"><strong>Github: </strong>
+                                <Link
+                                    href="https://github.com/polyhistor2050"
+                                    className="text-blue-500 hover:underline"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    https://github.com/polyhistor2050
+                                </Link>
+                            </div>
+                            <div className="mb-2"><strong>LinkedIn: </strong>
+                                <Link
+                                    href="https://www.linkedin.com/in/chriss-paulo"
+                                    className="text-blue-500 hover:underline"
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    https://www.linkedin.com/in/chriss-paulo
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

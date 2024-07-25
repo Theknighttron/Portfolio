@@ -13,16 +13,35 @@ function Footer() {
                     </div>
                     <ul className="flex flex-wrap items-center mb-6 text-md font-medium sm:mb-0 text-white">
                         <li>
-                            <Link href="#" className="hover:underline me-4 md:me-6 text-white"> LinkedIn </Link>
+                            <Link
+                                href="https://www.linkedin.com/in/chriss-paulo/"
+                                target="_blank" rel="noopener noreferrer"
+                                className="hover:underline me-4 md:me-6 text-white">
+                                LinkedIn
+                            </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline me-4 md:me-6 text-white"> Github </Link>
+                            <Link
+                                href="https://github.com/Theknighttron"
+                                target="_blank" rel="noopener noreferrer"
+                                className="hover:underline me-4 md:me-6 text-white">
+                                Github
+                            </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline me-4 md:me-6 text-white"> Resume </Link>
+                            <Link
+                                href="/ChristopherPaulo.pdf"
+                                target="_blank" rel="noopener noreferrer"
+                                className="hover:underline me-4 md:me-6 text-white">
+                                Resume
+                            </Link>
                         </li>
                         <li>
-                            <Link href="#" className="hover:underline text-white"> Gmail </Link>
+                            <Link
+                                href="mailto:chrisspaul2050@gmail.com"
+                                className="hover:underline text-white">
+                                Gmail
+                            </Link>
                         </li>
                     </ul>
                 </div>

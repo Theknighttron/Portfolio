@@ -62,6 +62,7 @@ const MovingImage = ({ title, img, link}) => {
                 ref={imgRef}
                 src={img}
                 alt={title}
+                target="_blank" rel="noopener noreferrer"
                 className="w-96 h-auto hidden absolute rounded-lg z-10" />
         </Link>
     )
