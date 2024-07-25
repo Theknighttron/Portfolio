@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion, useMotionValue } from "framer-motion";
 import { useRef } from "react";
-import article1 from "../public/programmer.jpg";
+import article1 from "../public/roadmap.png";
 import article2 from "../public/docker.webp";
 import article3 from "../public/Tumaini2.jpeg";
 
@@ -75,8 +75,8 @@ function Articles() {
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
                 <ul>
                     <Article
-                        title="Form Validation In ReactJs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                        date="July 24 2024"
+                        title="Roadmap to Becoming a Developer: Navigate your journey whether you're just starting or advancing your skills"
+                        date="March 3 2022"
                         link="/"
                         img={article1}
                     />
