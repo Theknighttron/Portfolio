@@ -75,10 +75,10 @@ function Home() {
                             </div>
 
                             <div className="portfolio-item">
-                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+                                <img src="/gosourcecode.png" className="portfolio-image rounded-lg" />
                                 <Link href="https://github.com/Theknighttron/Go-conf-booking-app">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Bcon </h4>
-                                    <div className="portfolio-category text-white"> Conference Booking </div>
+                                    <div className="portfolio-category text-white"> Simple Conference Booking </div>
                                 </Link>
                             </div>
                         </div>
@@ -94,19 +94,19 @@ function Home() {
                                 </Link>
                             </div>
 
-
                             <div className="portfolio-item">
-                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/Node-Auth-API">
-                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Auth API </h4>
-                                    <div className="portfolio-category text-white"> NodeJS API </div>
+                                <img src="/breakout_game.png" className="portfolio-image rounded-lg" />
+                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> 2D Break-Out Game </h4>
+                                    <div className="portfolio-category text-white"> Simple 2D Game </div>
                                 </Link>
                             </div>
+
                         </div>
 
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
-                                <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
+                                <img src="/javasourcecode.webp" className="portfolio-image rounded-lg" />
                                 <Link href="https://github.com/mattjquinn/ChristopherChallenges">
                                     <h4 className="portfolio-name text-white hover:text-orange-500"> Motors Dealer </h4>
                                     <div className="portfolio-category text-white"> Selling and Buying Vehicles </div>
@@ -114,10 +114,10 @@ function Home() {
                             </div>
 
                             <div className="portfolio-item">
-                                <img src="/breakout_game.png" className="portfolio-image rounded-lg" />
-                                <Link href="https://github.com/Theknighttron/richandhealth">
-                                    <h4 className="portfolio-name text-white hover:text-orange-500"> 2D Break-Out Game </h4>
-                                    <div className="portfolio-category text-white"> Simple 2D Game </div>
+                                <img src="/nodesourcecode.png" className="portfolio-image rounded-lg" />
+                                <Link href="https://github.com/Theknighttron/Node-Auth-API">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Auth API </h4>
+                                    <div className="portfolio-category text-white"> NodeJS API </div>
                                 </Link>
                             </div>
 
