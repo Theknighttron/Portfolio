@@ -30,7 +30,7 @@ function Home() {
                     </div>
 
                     <div className="image-wrapper w-full max-w-md mx-auto">
-                        <Image src={hero} width={500} height={500} layout="responsive" alt="programmer" />
+                        <Image src={hero} width={500} height={500} alt="programmer" />
 
                     </div>
                 </div>
@@ -50,65 +50,75 @@ function Home() {
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/Parking.png" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> NP-PARKING </h4>
-                                <div className="portfolio-category text-white"> Parking Management </div>
+                                <Link href="https://github.com/Theknighttron/NP-PARKING">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> NP-PARKING </h4>
+                                    <div className="portfolio-category text-white"> Parking Management </div>
+                                </Link>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/lamourFitnessCenter.png" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> Lamour Fitness Center </h4>
-                                <div className="portfolio-category text-white"> Gym Website </div>
+                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Lamour Fitness Center </h4>
+                                    <div className="portfolio-category text-white"> Gym Website </div>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/Explorehub.png" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> ExploreHub </h4>
-                                <div className="portfolio-category text-white"> Tourism Hub </div>
+                                <Link href="https://github.com/Theknighttron/ExploreHUB">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> ExploreHub </h4>
+                                    <div className="portfolio-category text-white"> Tourism Hub </div>
+                                </Link>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> Bcon </h4>
-                                <div className="portfolio-category text-white"> Conference Booking </div>
+                                <Link href="https://github.com/Theknighttron/Go-conf-booking-app">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Bcon </h4>
+                                    <div className="portfolio-category text-white"> Conference Booking </div>
+                                </Link>
                             </div>
                         </div>
 
 
                         <div className="portfolio-wrapper mt-12 mb-12">
+
                             <div className="portfolio-item">
                                 <img src="/richandhealth2.png" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> Rich and Health </h4>
-                                <div className="portfolio-category text-white"> Healthy and Nutrition </div>
+                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Rich and Health </h4>
+                                    <div className="portfolio-category text-white"> Healthy and Nutrition </div>
+                                </Link>
                             </div>
+
 
                             <div className="portfolio-item">
                                 <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> Auth API </h4>
-                                <div className="portfolio-category text-white"> NodeJS API </div>
+                                <Link href="https://github.com/Theknighttron/Node-Auth-API">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Auth API </h4>
+                                    <div className="portfolio-category text-white"> NodeJS API </div>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="portfolio-wrapper mt-12 mb-12">
                             <div className="portfolio-item">
                                 <img src="/kajian.jpg" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> Motors Dealer </h4>
-                                <div className="portfolio-category text-white"> Selling and Buying Vehicles </div>
+                                <Link href="https://github.com/mattjquinn/ChristopherChallenges">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> Motors Dealer </h4>
+                                    <div className="portfolio-category text-white"> Selling and Buying Vehicles </div>
+                                </Link>
                             </div>
 
                             <div className="portfolio-item">
                                 <img src="/breakout_game.png" className="portfolio-image rounded-lg" />
-
-                                <h4 className="portfolio-name text-white"> 2D Break-Out Game </h4>
-                                <div className="portfolio-category text-white"> Simple 2D Game </div>
+                                <Link href="https://github.com/Theknighttron/richandhealth">
+                                    <h4 className="portfolio-name text-white hover:text-orange-500"> 2D Break-Out Game </h4>
+                                    <div className="portfolio-category text-white"> Simple 2D Game </div>
+                                </Link>
                             </div>
 
                         </div>

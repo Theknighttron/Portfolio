@@ -15,7 +15,7 @@ const Skill = ({name, x, y}) => {
     )
 }
 
-function Skills({ skills }) {
+function Skills() {
     return (
         <>
             <h2 id="skills" className="font-bold text-6xl mt-16 w-full text-center">Skills</h2>

@@ -88,7 +88,7 @@ function Articles() {
                     />
                     <Article
                         title="Empowering Young Minds: Student learn programming at Tumaini Senior Secondary on a STEM class."
-                        date="July 24 2024"
+                        date="January 15 2024"
                         link="https://tanzaniaeducationcorp.org/news/2020/9/28/sept-newsletter-tumaini-game-development"
                         img={article3}
                     />

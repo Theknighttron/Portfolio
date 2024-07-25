@@ -1,45 +1,9 @@
-import Link from 'next/link';
-import Navbar from '../components/Navbar';
-import Head from 'next/head'
-
-function Portfolio() {
+function Projects() {
 	return (
 		<>
 
-            <Navbar />
-
-
-			<Head>
-			  <title>Projects</title>
-			</Head>
-
-			<section className="hero">
-			  <div className="container">
-			    <div className="text-wrapper w-full">
-			      <h1 className="font-bold text-6xl mt-32 w-full text-center">Projects</h1>
-			      <p className="description">
-			      	Incididunt in cillum magna occaecat nisi qui in.
-			      </p>
-
-			      <div className="portfolio-wrapper">
-			      	<div className="portfolio-item">
-			      		<img src="/chitchat.png" className="portfolio-image" />
-
-			      		<h4 className="portfolio-name">Chat App Exploration</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      	<div className="portfolio-item">
-			      		<img src="/kajian.jpg" className="portfolio-image" />
-
-			      		<h4 className="portfolio-name">kajian App</h4>
-			      		<div className="portfolio-category">Mobile Dev</div>
-			      	</div>
-			      </div>
-		      </div>
-	      </div>
-			</section>
 		</>
 	);
 }
 
-export default Portfolio;
+export default Projects;
