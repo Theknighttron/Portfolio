@@ -18,6 +18,21 @@ function Home() {
 
             <Navbar />
 
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
             <section id="home" className="hero mb-12">
                 <div className="container">
                     <div className="text-wrapper">
